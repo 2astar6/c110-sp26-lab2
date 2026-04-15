@@ -100,20 +100,17 @@
           <li> We will communicate clearly. </li>
           <li> We will document thoroughly </li>
         </ul>
-        Click the button below to privately acknowledge and remember what we agreed upon. Your response is not recorded. 
-        <br><br>
-        <button>Yes, I Will Remember</button>
       </section>
       <section id="media-section">
         <h2>Media</h2>
         <div>
           <audio controls>
-            <source src="teamintro.mp3" type="audio/mp3">
+            <source src="teamintro.mp3" type="audio/mp3" alt="audio of team video draft">
           </audio>
         </div>
         <div>
           <video width="25%" height="25%" controls>
-             <source src="teamintro.mp4" type="video/mp4">
+             <source src="teamintro.mp4" type="video/mp4" alt="video of team video draft">
           </video>
         </div>
       </section>
@@ -159,21 +156,24 @@
           <fieldset>
             <legend>Misc:</legend>
             Are You Ok With The Policies Decided?:
+            <br>
             <label for="okpol">Yes</label><br>
+            <input type="checkbox" id="okpol" name="okpol" value="Yes">
             <input type="checkbox" id="okpol" name="okpol" value="Yes">
             <br><br>
             Specify What Policy You Have Issues With, If Any: 
-            <br><br>
+            <br>
             <input type="radio" id="pol1" name="pol1" value="Policy #1">
-            <label for="pol2">HTML</label><br>
+            <label for="pol2">Policy #1</label><br>
             <input type="radio" id="pol2" name="pol2" value="Policy #2">
-            <label for="pol3">CSS</label><br>
+            <label for="pol3">Policy #2</label><br>
             <input type="radio" id="pol3" name="pol3" value="Policy #3">
+            <label for="pol3">Policy #3</label><br>
             <br><br>
             <label for="datemeet">Please Enter the Date When You Are Next Available for a Meeting:</label>
             <input type="date" id="datemeet" name="datemeet"><br><br>
           </fieldset>
-          <input type="submit" value="Submit">
+          <button>Submit</button>
         </form>
       </section>
     </main>
