@@ -98,17 +98,23 @@
       <hr>
       <section>
         <h2>Post-Meeting Feedback</h2>
-        <form>
+        <form action="">
           <fieldset>
             <legend>Identification:</legend>
             <label for="fname">First Name:</label>
             <input type="text" id="lname" name="lname"><br><br>
             <label for="lname">Last Name:</label>
             <input type="text" id="wsat" name="wsat"><br><br>
+          </fieldset>
+          <fieldset>
+            <legend>Satisfaction:</legend>
             <label for="wsat">Were You Satisfied With the Meeting?:</label>
             <input type="text" id="swhy" name="swhy"><br><br>
             <label for="swhy">Specify Why or Why Not:</label>
             <textarea id="swhy" name="swhy"></textarea><br><br>
+          </fieldset>
+          <fieldset>
+            <legend>Ratings:</legend>
             <label for="lrate">Please Select a Current Rating for Your Leaders:</label>
             <select id=lrate>
               <option value="1">1</option>
@@ -126,11 +132,11 @@
               <option value="4">4</option>
               <option value="5">5</option>
             </datalist>
-            <button>
-              <input type="submit">
-              Submit
-            </button>
           </fieldset>
+          <button>
+            <input type="submit">
+            Submit
+          </button>
         </form>
       </section>
     </main>
